@@ -472,7 +472,8 @@ function App() {
       <span>MySQL</span>
     </div>
 
-    <a href="/Smart_Grocery_List_Generator_Summary.pdf"
+    <a
+  href={`${import.meta.env.BASE_URL}Smart_Grocery_List_Generator_Summary.pdf`}
   target="_blank"
   rel="noreferrer"
   className="case-study-button"
@@ -500,8 +501,7 @@ function App() {
 
    <div className="creative-card drawing-card">
   <a href="#" onClick={(e) => e.preventDefault()}>
-    <img src="/kirshna.jpg" alt="My Drawing" />
-
+    <img src={`${import.meta.env.BASE_URL}kirshna.jpg`} alt="My Drawing" />
     <div className="drawing-overlay">
       <span>View my drawings →</span>
     </div>
@@ -511,10 +511,9 @@ function App() {
     <div className="creative-card canva-card">
   <a href="#canva-gallery">
     <img
-      src="/Canva-front.png"
-      alt="Ganesh Tiles Work - Front"
-    />
-
+  src={`${import.meta.env.BASE_URL}Canva-front.png`}
+  alt="Ganesh Tiles Work - Front"
+/>
     <div className="canva-overlay">
       <span>Explore my designs →</span>
     </div>
@@ -524,7 +523,7 @@ function App() {
     <div class="creative-card pinterest-card">
     <a href="https://in.pinterest.com/karthieditz07/" target="_blank" rel="noopener noreferrer">
         
-       <img src="/pinterest-cover.png" alt="My Pinterest" />
+       <img src={`${import.meta.env.BASE_URL}pinterest-cover.png`} alt="My Pinterest" />
         <div class="pinterest-overlay">
             <span>View my Pinterest account →</span>
         </div>
@@ -591,7 +590,7 @@ function App() {
     </div>
 
     <a
-  href="/karthika_CV-1.pdf"
+  href={`${import.meta.env.BASE_URL}karthika_CV-1.pdf`}
   target="_blank"
   rel="noreferrer"
   className="resume-button"
